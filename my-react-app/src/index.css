@@ -1,0 +1,113 @@
+.card .profile{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.card{
+  border:1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(120,120,120);
+  padding:20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  color: rgb(120,120,120);
+}
+.card .card-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.btn{
+  color:brown;
+  background-color: yellow;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: brown;
+  color: yellow;
+}
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid black;
+}
+.student p{
+  
+}
+header{
+  display: flex;
+  background-color: #3e2723; 
+  color: bisque;
+  padding: 14px 30px;
+}
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20%;
+  color: white;
+
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffe0b2;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.nav-links li a:hover {
+  color: rgb(153, 137, 30);
+  text-decoration: none;
+  
+}
+.body{
+  background-color: #3e2723;
+  width: 100%;
+  height: 360px;
+  padding: 200px auto;
+
+}
+.body h2,p{
+  color: #ffe0b2;
+  padding: 40px auto;
+  margin: auto 40px;
+  line-height: 35px;
+}
+.body button{
+  background-color: #ffe0b2;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: auto 40px;
+}
+.body button:hover{
+  background-color:rgb(153, 137, 30);
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto 40px;
+  padding: 10px 30px;
+}
