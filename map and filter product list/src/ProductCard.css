@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 200px;
+  position: relative;
+}
+
+.out-of-stock {
+  opacity: 0.5;
+  background-color: #f0f0f0;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.featured {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: gold;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.premium {
+  color: purple;
+  font-weight: bold;
+}
