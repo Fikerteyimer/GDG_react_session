@@ -1,0 +1,110 @@
+.container{
+  border: 1px solid black;
+  background-color: rgb(203, 156, 12);
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.profile{
+  width:250px;height: 250px;
+  padding: 30px;
+  border-radius: 50%;
+}
+.container .title{
+  text-align: center;
+  color: rgb(78, 78, 50);
+}
+.container .content{
+  text-align: center;
+}
+.button{
+  background-color: rgb(231, 123, 22);
+  padding: 10px;
+  border-radius: 10px;
+  border:none;
+}
+.button:hover{
+  background-color: rgb(235, 235, 46);
+  cursor: pointer;
+} 
+.propsContainer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px;
+  width: 370px;
+  height: 400px;
+  background-color:rgb(203, 156, 12) ;
+  border-radius: 20px;
+}
+.welcome-message{
+  font-size: 2.5em;
+  background-color: rgb(15, 184, 60);
+
+}
+.login-message{
+  font-size: 2.5em;
+  background-color: rgb(254, 27, 27);
+
+}
+.button-click{
+  background-color: rgb(213, 197, 22);
+  padding:10px;
+  border-radius: 10px;
+  margin: 10px;;
+}
+.colorContainer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.color-display{
+ border:1px solid black;
+ padding :20px;
+ border-radius: 10px;
+ width: 360px;height: 450px;
+ margin-bottom: 25px;
+}
+.color-display p{
+  color:rgb(81, 255, 0);
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.todoContainer{
+  background-color: rgb(255, 0, 212);
+  margin: 50px;
+  padding: 50%;
+  width:300px;
+  height: auto;
+}
+.button-input-container button,input{
+  padding: 10px;
+}
+.button-input-container button{
+  background-color: rgb(195, 127, 255);
+}
+.todoListContainer{
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+.todoListContainer li{
+ margin: 10px 0; 
+ list-style: none;
+ background-color: white;
+ padding: 10px;
+ width: 240px;
+ border: 1px solid black;
+}
+.todoListContainer  button{
+  padding: 10px;
+
+}
+
+
+
+
